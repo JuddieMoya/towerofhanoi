@@ -11,3 +11,46 @@ h1 {
     background-image: url(https://agenergy.coop/wp-content/uploads/2016/02/green-hexagons-background-Large.png);
     text-align: center;
  }
+
+ :root {
+     box-sizing: border-box;
+ }
+
+ #game {
+     background-color: slategrey;
+     height: 500px;
+     display: flex;
+ }
+
+ .tower {
+     border: 1px solid darkslategrey;
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column-reverse;
+ }
+
+ .disc {
+     height: 100px;
+     border: 1px solid #345;
+     border-radius: 30%;
+ }
+
+ #disc1 {
+     width: 60%;
+     background-color: khaki;
+ }
+
+#disc2 {
+    width 70%;
+    background-color: lightgreen;
+}
+
+#disc3 {
+    width: 80%;
+    background-color: lightblue;
+}
+
+#disc4 {
+    width: 90%;
+    background-color: orchid;
+}
