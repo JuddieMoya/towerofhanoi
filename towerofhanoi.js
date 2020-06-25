@@ -14,12 +14,23 @@ const towerClick = function(evt) {
         } else {
             console.log("No disc picked up.")
         } 
-    }  else {
-        console.log("You dropped onto " + tower.id)
+    }  else if (mode === "drop") {
+        if (!tower.lastElementChild) {
+            tower.append(selectedDisc)
+            mode = "pickup"
+            console.log("You dropped onto " + tower.id)
+    } else if (selectedDisc.dataset.width < evt.currentTarget.lastElementChild.dataset.width) {
         tower.append(selectedDisc)
+        console.log("Yay!")
         mode = "pickup"
+    } else {
+        alert("Invalid Move.")
+    } if (tower3.childElementCount===4) {
+        alert("You win!")
     }
-}
+    }
+} 
+    
 
 const tower1 = document.querySelector("#tower1")
 const tower2 = document.querySelector("#tower2")
