@@ -1,3 +1,4 @@
+![Tower Hanoi](https://user-images.githubusercontent.com/64097627/118062873-ee89a900-b365-11eb-92fa-323eed9ed2b1.png)
 The partners for this project are Kristina Delvallee and Judith Moya.  A record of our meetings will be kept here.
 
 During demo on 22/6/2020, Randy went over the Tower of Hanoi game and gave a basic outline for what to do.  I followed along to help create the project.
